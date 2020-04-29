@@ -1,0 +1,378 @@
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: new group: name=ubuntu, GID=1000
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'adm'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'dialout'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'cdrom'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'floppy'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'sudo'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'audio'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'dip'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'video'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'plugdev'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'netdev'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to group 'lxd'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'adm'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'dialout'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'cdrom'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'floppy'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'sudo'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'audio'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'dip'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'video'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'plugdev'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'netdev'
+Apr 26 21:20:55 ip-172-31-26-143 useradd[495]: add 'ubuntu' to shadow group 'lxd'
+Apr 26 21:20:55 ip-172-31-26-143 passwd[504]: password for 'ubuntu' changed by 'root'
+Apr 26 21:20:56 ip-172-31-26-143 systemd-logind[543]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 21:20:56 ip-172-31-26-143 systemd-logind[543]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 21:20:56 ip-172-31-26-143 systemd-logind[543]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 21:20:56 ip-172-31-26-143 systemd-logind[543]: New seat seat0.
+Apr 26 21:20:56 ip-172-31-26-143 sshd[748]: Server listening on 0.0.0.0 port 22.
+Apr 26 21:20:56 ip-172-31-26-143 sshd[748]: Server listening on :: port 22.
+Apr 26 21:21:00 ip-172-31-26-143 systemd-logind[543]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 21:21:00 ip-172-31-26-143 systemd-logind[543]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 21:21:00 ip-172-31-26-143 systemd-logind[543]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 21:21:29 ip-172-31-26-143 sshd[1794]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k failed, status 22
+Apr 26 21:21:29 ip-172-31-26-143 sshd[1794]: Connection closed by authenticating user ubuntu 174.194.150.43 port 61523 [preauth]
+Apr 26 21:21:53 ip-172-31-26-143 sshd[1810]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k failed, status 22
+Apr 26 21:21:53 ip-172-31-26-143 sshd[1810]: Connection closed by authenticating user ubuntu 174.194.150.43 port 61524 [preauth]
+Apr 26 21:22:09 ip-172-31-26-143 sshd[1826]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k failed, status 22
+Apr 26 21:22:09 ip-172-31-26-143 sshd[1826]: Connection closed by authenticating user ubuntu 174.194.150.43 port 61516 [preauth]
+Apr 26 21:22:17 ip-172-31-26-143 sshd[1842]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k failed, status 22
+Apr 26 21:22:18 ip-172-31-26-143 sshd[1842]: Accepted publickey for ubuntu from 174.194.150.43 port 61533 ssh2: RSA SHA256:nxE1vlVH0jCFPvL2GXXGERj+Gsr2II33M67JzigTDYg
+Apr 26 21:22:18 ip-172-31-26-143 sshd[1842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr 26 21:22:18 ip-172-31-26-143 systemd-logind[543]: New session 1 of user ubuntu.
+Apr 26 21:22:18 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Apr 26 21:23:07 ip-172-31-26-143 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/bash first.sh
+Apr 26 21:23:07 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:23:48 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/bash
+Apr 26 21:23:48 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:23:53 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:23:53 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/opt/chef/embedded/bin/gem install berkshelf
+Apr 26 21:23:53 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:00 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:00 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/opt/chef/embedded/bin/berks vendor /tmp/chef-solo/cookbooks
+Apr 26 21:24:00 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:06 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:06 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chef-client --local-mode -c solo.rb -j first.json
+Apr 26 21:24:06 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:08 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:08 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/rm -rf /tmp/chef-solo
+Apr 26 21:24:08 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:08 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:08 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:45 ip-172-31-26-143 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/bash first.sh
+Apr 26 21:24:45 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:48 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/opt/chef/embedded/bin/berks vendor /tmp/chef-solo/cookbooks
+Apr 26 21:24:48 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:49 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:49 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chef-client --local-mode -c solo.rb -j first.json
+Apr 26 21:24:49 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:50 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:50 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/rm -rf /tmp/chef-solo
+Apr 26 21:24:50 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:24:50 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:24:50 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:25:57 ip-172-31-26-143 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/bash first.sh
+Apr 26 21:25:57 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:25:59 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/opt/chef/embedded/bin/berks vendor /tmp/chef-solo/cookbooks
+Apr 26 21:25:59 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:26:00 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:00 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chef-client --local-mode -c solo.rb -j first.json
+Apr 26 21:26:00 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:24 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/update-alternatives --config vi
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:24 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:24 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/update-alternatives --config vim
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:24 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:24 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/update-alternatives --config editor
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:24 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:32 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chown -R root:root ./go
+Apr 26 21:26:32 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:32 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:32 ip-172-31-26-143 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/mv go /usr/local
+Apr 26 21:26:32 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 26 21:26:32 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:32 ip-172-31-26-143 useradd[9813]: new group: name=abhisawa, GID=1001
+Apr 26 21:26:32 ip-172-31-26-143 useradd[9813]: new user: name=abhisawa, UID=1001, GID=1001, home=/home/abhisawa, shell=/bin/bash, from=none
+Apr 26 21:26:33 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:33 ip-172-31-26-143 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/rm -rf /tmp/chef-solo
+Apr 26 21:26:33 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 26 21:26:33 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:33 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:26:37 ip-172-31-26-143 sshd[1975]: Received disconnect from 174.194.150.43 port 61533:11: disconnected by user
+Apr 26 21:26:37 ip-172-31-26-143 sshd[1975]: Disconnected from user ubuntu 174.194.150.43 port 61533
+Apr 26 21:26:37 ip-172-31-26-143 sshd[1842]: pam_unix(sshd:session): session closed for user ubuntu
+Apr 26 21:26:37 ip-172-31-26-143 systemd-logind[543]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 21:26:37 ip-172-31-26-143 systemd-logind[543]: Removed session 1.
+Apr 26 21:26:47 ip-172-31-26-143 sshd[9850]: Accepted publickey for abhisawa from 174.194.150.43 port 61516 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 21:26:47 ip-172-31-26-143 sshd[9850]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 21:26:47 ip-172-31-26-143 systemd-logind[543]: New session 3 of user abhisawa.
+Apr 26 21:26:47 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 21:28:30 ip-172-31-26-143 sudo: abhisawa : TTY=pts/0 ; PWD=/home/abhisawa/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chown abhisawa:abhisawa -R /home/abhisawa/.local/
+Apr 26 21:28:30 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by abhisawa(uid=0)
+Apr 26 21:28:30 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:29:13 ip-172-31-26-143 sudo: abhisawa : TTY=pts/0 ; PWD=/home/abhisawa/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/bash solo.sh
+Apr 26 21:29:13 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by abhisawa(uid=0)
+Apr 26 21:29:25 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:30:14 ip-172-31-26-143 sudo: abhisawa : TTY=pts/0 ; PWD=/home/abhisawa/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chown -R abhisawa:abhisawa /home/abhisawa/.config
+Apr 26 21:30:14 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by abhisawa(uid=0)
+Apr 26 21:30:14 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:30:21 ip-172-31-26-143 sudo: abhisawa : TTY=pts/0 ; PWD=/home/abhisawa/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chown -R abhisawa:abhisawa /home/abhisawa/go
+Apr 26 21:30:21 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by abhisawa(uid=0)
+Apr 26 21:30:21 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:30:27 ip-172-31-26-143 sudo: abhisawa : TTY=pts/0 ; PWD=/home/abhisawa/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/chown -R abhisawa:abhisawa /home/abhisawa/.bash_profile
+Apr 26 21:30:27 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by abhisawa(uid=0)
+Apr 26 21:30:27 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:31:55 ip-172-31-26-143 sudo: abhisawa : TTY=pts/0 ; PWD=/home/abhisawa/git/workstation-bootstrap ; USER=root ; COMMAND=/usr/bin/rm -rf /home/abhisawa/.config/nvim/plugged/vim-go
+Apr 26 21:31:55 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by abhisawa(uid=0)
+Apr 26 21:31:55 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 26 21:32:16 ip-172-31-26-143 sshd[9950]: Received disconnect from 174.194.150.43 port 61516:11: disconnected by user
+Apr 26 21:32:16 ip-172-31-26-143 sshd[9950]: Disconnected from user abhisawa 174.194.150.43 port 61516
+Apr 26 21:32:16 ip-172-31-26-143 sshd[9850]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 21:32:16 ip-172-31-26-143 systemd-logind[543]: Session 3 logged out. Waiting for processes to exit.
+Apr 26 21:32:16 ip-172-31-26-143 systemd-logind[543]: Removed session 3.
+Apr 26 21:32:18 ip-172-31-26-143 sshd[11460]: Accepted publickey for abhisawa from 174.194.150.43 port 61533 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 21:32:18 ip-172-31-26-143 sshd[11460]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 21:32:18 ip-172-31-26-143 systemd-logind[543]: New session 5 of user abhisawa.
+Apr 26 21:36:02 ip-172-31-26-143 sshd[11593]: Invalid user admin from 141.98.81.150 port 52208
+Apr 26 21:36:03 ip-172-31-26-143 sshd[11593]: Connection closed by invalid user admin 141.98.81.150 port 52208 [preauth]
+Apr 26 21:36:36 ip-172-31-26-143 sshd[11597]: error: kex_exchange_identification: read: Connection reset by peer
+Apr 26 21:36:40 ip-172-31-26-143 sshd[11598]: Invalid user pi from 82.64.15.106 port 33690
+Apr 26 21:36:40 ip-172-31-26-143 sshd[11598]: Connection closed by invalid user pi 82.64.15.106 port 33690 [preauth]
+Apr 26 21:36:40 ip-172-31-26-143 sshd[11600]: Invalid user pi from 82.64.15.106 port 33692
+Apr 26 21:36:40 ip-172-31-26-143 sshd[11600]: Connection closed by invalid user pi 82.64.15.106 port 33692 [preauth]
+Apr 26 21:38:00 ip-172-31-26-143 sshd[11602]: Invalid user admin from 45.227.255.204 port 55058
+Apr 26 21:38:01 ip-172-31-26-143 sshd[11602]: Connection closed by invalid user admin 45.227.255.204 port 55058 [preauth]
+Apr 26 21:41:14 ip-172-31-26-143 sshd[11528]: Received disconnect from 174.194.150.43 port 61533:11: disconnected by user
+Apr 26 21:41:14 ip-172-31-26-143 sshd[11528]: Disconnected from user abhisawa 174.194.150.43 port 61533
+Apr 26 21:41:14 ip-172-31-26-143 sshd[11460]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 21:41:14 ip-172-31-26-143 systemd-logind[543]: Session 5 logged out. Waiting for processes to exit.
+Apr 26 21:54:24 ip-172-31-26-143 sshd[725]: Server listening on 0.0.0.0 port 22.
+Apr 26 21:54:24 ip-172-31-26-143 sshd[725]: Server listening on :: port 22.
+Apr 26 21:54:24 ip-172-31-26-143 systemd-logind[537]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 21:54:24 ip-172-31-26-143 systemd-logind[537]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 21:54:24 ip-172-31-26-143 systemd-logind[537]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 21:54:24 ip-172-31-26-143 systemd-logind[537]: New seat seat0.
+Apr 26 21:57:52 ip-172-31-26-143 sshd[787]: Accepted publickey for abhisawa from 174.194.150.43 port 61524 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 21:57:52 ip-172-31-26-143 sshd[787]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 21:57:52 ip-172-31-26-143 systemd-logind[537]: New session 1 of user abhisawa.
+Apr 26 21:57:52 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 21:57:55 ip-172-31-26-143 sshd[901]: Received disconnect from 174.194.150.43 port 61524:11: disconnected by user
+Apr 26 21:57:55 ip-172-31-26-143 sshd[901]: Disconnected from user abhisawa 174.194.150.43 port 61524
+Apr 26 21:57:55 ip-172-31-26-143 sshd[787]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 21:57:55 ip-172-31-26-143 systemd-logind[537]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:00:01 ip-172-31-26-143 systemd-logind[532]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:00:01 ip-172-31-26-143 systemd-logind[532]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:00:01 ip-172-31-26-143 systemd-logind[532]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:00:01 ip-172-31-26-143 systemd-logind[532]: New seat seat0.
+Apr 26 22:00:01 ip-172-31-26-143 sshd[729]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:00:01 ip-172-31-26-143 sshd[729]: Server listening on :: port 22.
+Apr 26 22:00:38 ip-172-31-26-143 sshd[791]: Accepted publickey for abhisawa from 174.194.150.43 port 61518 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:00:38 ip-172-31-26-143 sshd[791]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:00:38 ip-172-31-26-143 systemd-logind[532]: New session 1 of user abhisawa.
+Apr 26 22:00:38 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:00:40 ip-172-31-26-143 sshd[908]: Received disconnect from 174.194.150.43 port 61518:11: disconnected by user
+Apr 26 22:00:40 ip-172-31-26-143 sshd[908]: Disconnected from user abhisawa 174.194.150.43 port 61518
+Apr 26 22:00:40 ip-172-31-26-143 systemd-logind[532]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:00:40 ip-172-31-26-143 sshd[791]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:00:57 ip-172-31-26-143 sshd[951]: Accepted publickey for abhisawa from 174.194.150.43 port 61532 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:00:57 ip-172-31-26-143 sshd[951]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:00:57 ip-172-31-26-143 systemd-logind[532]: New session 3 of user abhisawa.
+Apr 26 22:00:58 ip-172-31-26-143 sshd[1030]: Received disconnect from 174.194.150.43 port 61532:11: disconnected by user
+Apr 26 22:00:58 ip-172-31-26-143 sshd[1030]: Disconnected from user abhisawa 174.194.150.43 port 61532
+Apr 26 22:00:58 ip-172-31-26-143 sshd[951]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:00:58 ip-172-31-26-143 systemd-logind[532]: Session 3 logged out. Waiting for processes to exit.
+Apr 26 22:00:58 ip-172-31-26-143 systemd-logind[532]: Removed session 3.
+Apr 26 22:03:09 ip-172-31-26-143 sshd[1056]: Accepted publickey for abhisawa from 174.194.150.43 port 61514 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:03:09 ip-172-31-26-143 sshd[1056]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:03:09 ip-172-31-26-143 systemd-logind[532]: New session 4 of user abhisawa.
+Apr 26 22:03:13 ip-172-31-26-143 sshd[1133]: Received disconnect from 174.194.150.43 port 61514:11: disconnected by user
+Apr 26 22:03:13 ip-172-31-26-143 sshd[1133]: Disconnected from user abhisawa 174.194.150.43 port 61514
+Apr 26 22:03:13 ip-172-31-26-143 sshd[1056]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:03:13 ip-172-31-26-143 systemd-logind[532]: Session 4 logged out. Waiting for processes to exit.
+Apr 26 22:03:13 ip-172-31-26-143 systemd-logind[532]: Removed session 4.
+Apr 26 22:05:12 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:05:12 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:05:12 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:05:12 ip-172-31-26-143 systemd-logind[538]: New seat seat0.
+Apr 26 22:05:12 ip-172-31-26-143 sshd[721]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:05:12 ip-172-31-26-143 sshd[721]: Server listening on :: port 22.
+Apr 26 22:07:58 ip-172-31-26-143 sshd[859]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:07:58 ip-172-31-26-143 sshd[859]: Server listening on :: port 22.
+Apr 26 22:07:59 ip-172-31-26-143 systemd-logind[669]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:07:59 ip-172-31-26-143 systemd-logind[669]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:07:59 ip-172-31-26-143 systemd-logind[669]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:07:59 ip-172-31-26-143 systemd-logind[669]: New seat seat0.
+Apr 26 22:09:01 ip-172-31-26-143 sshd[932]: Accepted publickey for abhisawa from 174.194.150.43 port 61517 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:09:01 ip-172-31-26-143 sshd[932]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:09:01 ip-172-31-26-143 systemd-logind[669]: New session 1 of user abhisawa.
+Apr 26 22:09:01 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:09:03 ip-172-31-26-143 sshd[1049]: Received disconnect from 174.194.150.43 port 61517:11: disconnected by user
+Apr 26 22:09:03 ip-172-31-26-143 sshd[1049]: Disconnected from user abhisawa 174.194.150.43 port 61517
+Apr 26 22:09:03 ip-172-31-26-143 sshd[932]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:09:03 ip-172-31-26-143 systemd-logind[669]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:09:06 ip-172-31-26-143 sshd[923]: Accepted publickey for abhisawa from 174.194.150.43 port 61511 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:09:06 ip-172-31-26-143 sshd[923]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:09:06 ip-172-31-26-143 systemd-logind[669]: New session 3 of user abhisawa.
+Apr 26 22:09:08 ip-172-31-26-143 sshd[1176]: Received disconnect from 174.194.150.43 port 61511:11: disconnected by user
+Apr 26 22:09:08 ip-172-31-26-143 sshd[1176]: Disconnected from user abhisawa 174.194.150.43 port 61511
+Apr 26 22:09:08 ip-172-31-26-143 sshd[923]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:09:08 ip-172-31-26-143 systemd-logind[669]: Session 3 logged out. Waiting for processes to exit.
+Apr 26 22:09:08 ip-172-31-26-143 systemd-logind[669]: Removed session 3.
+Apr 26 22:11:28 ip-172-31-26-143 sshd[858]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:11:28 ip-172-31-26-143 sshd[858]: Server listening on :: port 22.
+Apr 26 22:11:28 ip-172-31-26-143 systemd-logind[672]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:11:28 ip-172-31-26-143 systemd-logind[672]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:11:28 ip-172-31-26-143 systemd-logind[672]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:11:28 ip-172-31-26-143 systemd-logind[672]: New seat seat0.
+Apr 26 22:12:39 ip-172-31-26-143 sshd[733]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:12:39 ip-172-31-26-143 sshd[733]: Server listening on :: port 22.
+Apr 26 22:12:39 ip-172-31-26-143 systemd-logind[542]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:12:39 ip-172-31-26-143 systemd-logind[542]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:12:39 ip-172-31-26-143 systemd-logind[542]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:12:39 ip-172-31-26-143 systemd-logind[542]: New seat seat0.
+Apr 26 22:13:04 ip-172-31-26-143 sshd[782]: Accepted publickey for abhisawa from 174.194.150.43 port 61519 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:13:04 ip-172-31-26-143 sshd[782]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:13:04 ip-172-31-26-143 systemd-logind[542]: New session 1 of user abhisawa.
+Apr 26 22:13:04 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:13:07 ip-172-31-26-143 sshd[898]: Received disconnect from 174.194.150.43 port 61519:11: disconnected by user
+Apr 26 22:13:07 ip-172-31-26-143 sshd[898]: Disconnected from user abhisawa 174.194.150.43 port 61519
+Apr 26 22:13:07 ip-172-31-26-143 sshd[782]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:13:07 ip-172-31-26-143 systemd-logind[542]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:15:01 ip-172-31-26-143 sshd[722]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:15:01 ip-172-31-26-143 sshd[722]: Server listening on :: port 22.
+Apr 26 22:15:01 ip-172-31-26-143 systemd-logind[547]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:15:01 ip-172-31-26-143 systemd-logind[547]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:15:01 ip-172-31-26-143 systemd-logind[547]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:15:01 ip-172-31-26-143 systemd-logind[547]: New seat seat0.
+Apr 26 22:15:07 ip-172-31-26-143 sshd[776]: Accepted publickey for abhisawa from 174.194.150.43 port 61519 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:15:07 ip-172-31-26-143 sshd[776]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:15:07 ip-172-31-26-143 systemd-logind[547]: New session 1 of user abhisawa.
+Apr 26 22:15:07 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:15:13 ip-172-31-26-143 sshd[873]: Received disconnect from 174.194.150.43 port 61519:11: disconnected by user
+Apr 26 22:15:13 ip-172-31-26-143 sshd[873]: Disconnected from user abhisawa 174.194.150.43 port 61519
+Apr 26 22:15:13 ip-172-31-26-143 sshd[776]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:15:13 ip-172-31-26-143 systemd-logind[547]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:19:15 ip-172-31-26-143 sshd[727]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:19:15 ip-172-31-26-143 sshd[727]: Server listening on :: port 22.
+Apr 26 22:19:15 ip-172-31-26-143 systemd-logind[534]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:19:15 ip-172-31-26-143 systemd-logind[534]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:19:15 ip-172-31-26-143 systemd-logind[534]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:19:15 ip-172-31-26-143 systemd-logind[534]: New seat seat0.
+Apr 26 22:19:19 ip-172-31-26-143 sshd[776]: Accepted publickey for abhisawa from 174.194.150.43 port 61535 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:19:19 ip-172-31-26-143 sshd[776]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:19:19 ip-172-31-26-143 systemd-logind[534]: New session 1 of user abhisawa.
+Apr 26 22:19:19 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:19:24 ip-172-31-26-143 sshd[873]: Received disconnect from 174.194.150.43 port 61535:11: disconnected by user
+Apr 26 22:19:24 ip-172-31-26-143 sshd[873]: Disconnected from user abhisawa 174.194.150.43 port 61535
+Apr 26 22:19:24 ip-172-31-26-143 sshd[776]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:19:24 ip-172-31-26-143 systemd-logind[534]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:20:54 ip-172-31-26-143 sshd[731]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:20:54 ip-172-31-26-143 sshd[731]: Server listening on :: port 22.
+Apr 26 22:20:55 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:20:55 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:20:55 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:20:55 ip-172-31-26-143 systemd-logind[538]: New seat seat0.
+Apr 26 22:21:00 ip-172-31-26-143 sshd[778]: Accepted publickey for abhisawa from 174.194.150.43 port 61524 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:21:00 ip-172-31-26-143 sshd[778]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:21:00 ip-172-31-26-143 systemd-logind[538]: New session 1 of user abhisawa.
+Apr 26 22:21:00 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:21:03 ip-172-31-26-143 sshd[919]: Invalid user websphere from 119.4.225.31 port 50485
+Apr 26 22:21:03 ip-172-31-26-143 sshd[919]: Received disconnect from 119.4.225.31 port 50485:11: Bye Bye [preauth]
+Apr 26 22:21:03 ip-172-31-26-143 sshd[919]: Disconnected from invalid user websphere 119.4.225.31 port 50485 [preauth]
+Apr 26 22:21:10 ip-172-31-26-143 sshd[875]: Received disconnect from 174.194.150.43 port 61524:11: disconnected by user
+Apr 26 22:21:10 ip-172-31-26-143 sshd[875]: Disconnected from user abhisawa 174.194.150.43 port 61524
+Apr 26 22:21:10 ip-172-31-26-143 sshd[778]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:21:10 ip-172-31-26-143 systemd-logind[538]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:24:14 ip-172-31-26-143 sshd[726]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:24:14 ip-172-31-26-143 sshd[726]: Server listening on :: port 22.
+Apr 26 22:24:15 ip-172-31-26-143 systemd-logind[535]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:24:15 ip-172-31-26-143 systemd-logind[535]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:24:15 ip-172-31-26-143 systemd-logind[535]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:24:15 ip-172-31-26-143 systemd-logind[535]: New seat seat0.
+Apr 26 22:24:22 ip-172-31-26-143 sshd[776]: Accepted publickey for abhisawa from 174.194.150.43 port 61517 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:24:22 ip-172-31-26-143 sshd[776]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:24:22 ip-172-31-26-143 systemd-logind[535]: New session 1 of user abhisawa.
+Apr 26 22:24:22 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:24:26 ip-172-31-26-143 sshd[892]: Received disconnect from 174.194.150.43 port 61517:11: disconnected by user
+Apr 26 22:24:26 ip-172-31-26-143 sshd[892]: Disconnected from user abhisawa 174.194.150.43 port 61517
+Apr 26 22:24:26 ip-172-31-26-143 sshd[776]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:24:26 ip-172-31-26-143 systemd-logind[535]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:26:36 ip-172-31-26-143 sshd[950]: Accepted publickey for abhisawa from 174.194.150.43 port 15004 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:26:36 ip-172-31-26-143 sshd[950]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:26:36 ip-172-31-26-143 systemd-logind[535]: New session 3 of user abhisawa.
+Apr 26 22:26:41 ip-172-31-26-143 sshd[1023]: Received disconnect from 174.194.150.43 port 15004:11: disconnected by user
+Apr 26 22:26:41 ip-172-31-26-143 sshd[1023]: Disconnected from user abhisawa 174.194.150.43 port 15004
+Apr 26 22:26:41 ip-172-31-26-143 sshd[950]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:26:41 ip-172-31-26-143 systemd-logind[535]: Session 3 logged out. Waiting for processes to exit.
+Apr 26 22:26:41 ip-172-31-26-143 systemd-logind[535]: Removed session 3.
+Apr 26 22:34:57 ip-172-31-26-143 systemd-logind[549]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:34:57 ip-172-31-26-143 systemd-logind[549]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:34:57 ip-172-31-26-143 systemd-logind[549]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:34:57 ip-172-31-26-143 systemd-logind[549]: New seat seat0.
+Apr 26 22:34:57 ip-172-31-26-143 sshd[726]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:34:57 ip-172-31-26-143 sshd[726]: Server listening on :: port 22.
+Apr 26 22:36:23 ip-172-31-26-143 sshd[725]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:36:23 ip-172-31-26-143 sshd[725]: Server listening on :: port 22.
+Apr 26 22:36:23 ip-172-31-26-143 systemd-logind[529]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:36:23 ip-172-31-26-143 systemd-logind[529]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:36:23 ip-172-31-26-143 systemd-logind[529]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:36:23 ip-172-31-26-143 systemd-logind[529]: New seat seat0.
+Apr 26 22:36:29 ip-172-31-26-143 sshd[774]: Accepted publickey for abhisawa from 174.194.150.43 port 61520 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:36:29 ip-172-31-26-143 sshd[774]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:36:29 ip-172-31-26-143 systemd-logind[529]: New session 1 of user abhisawa.
+Apr 26 22:36:29 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:36:36 ip-172-31-26-143 sshd[871]: Received disconnect from 174.194.150.43 port 61520:11: disconnected by user
+Apr 26 22:36:36 ip-172-31-26-143 sshd[871]: Disconnected from user abhisawa 174.194.150.43 port 61520
+Apr 26 22:36:36 ip-172-31-26-143 sshd[774]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 26 22:36:36 ip-172-31-26-143 systemd-logind[529]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:38:46 ip-172-31-26-143 sshd[719]: Server listening on 0.0.0.0 port 22.
+Apr 26 22:38:46 ip-172-31-26-143 sshd[719]: Server listening on :: port 22.
+Apr 26 22:38:47 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 26 22:38:47 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 26 22:38:47 ip-172-31-26-143 systemd-logind[538]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 26 22:38:47 ip-172-31-26-143 systemd-logind[538]: New seat seat0.
+Apr 26 22:38:48 ip-172-31-26-143 sshd[778]: Invalid user jenkins from 64.35.192.174 port 59342
+Apr 26 22:38:49 ip-172-31-26-143 sshd[778]: Received disconnect from 64.35.192.174 port 59342:11: Bye Bye [preauth]
+Apr 26 22:38:49 ip-172-31-26-143 sshd[778]: Disconnected from invalid user jenkins 64.35.192.174 port 59342 [preauth]
+Apr 26 22:39:31 ip-172-31-26-143 sshd[785]: Accepted publickey for abhisawa from 174.194.150.43 port 9791 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 26 22:39:31 ip-172-31-26-143 sshd[785]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:39:31 ip-172-31-26-143 systemd-logind[538]: New session 1 of user abhisawa.
+Apr 26 22:39:31 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 26 22:41:34 ip-172-31-26-143 sshd[946]: Invalid user pi from 106.201.119.139 port 60010
+Apr 26 22:41:35 ip-172-31-26-143 sshd[947]: Invalid user pi from 106.201.119.139 port 60012
+Apr 26 22:41:35 ip-172-31-26-143 sshd[946]: Connection closed by invalid user pi 106.201.119.139 port 60010 [preauth]
+Apr 26 22:41:35 ip-172-31-26-143 sshd[947]: Connection closed by invalid user pi 106.201.119.139 port 60012 [preauth]
+Apr 26 22:43:54 ip-172-31-26-143 sshd[902]: Received disconnect from 174.194.150.43 port 9791:11: disconnected by user
+Apr 26 22:43:54 ip-172-31-26-143 sshd[902]: Disconnected from user abhisawa 174.194.150.43 port 9791
+Apr 26 22:43:54 ip-172-31-26-143 systemd-logind[538]: Session 1 logged out. Waiting for processes to exit.
+Apr 26 22:43:54 ip-172-31-26-143 sshd[785]: pam_unix(sshd:session): session closed for user abhisawa
+Apr 27 01:35:06 ip-172-31-26-143 sshd[728]: Server listening on 0.0.0.0 port 22.
+Apr 27 01:35:06 ip-172-31-26-143 sshd[728]: Server listening on :: port 22.
+Apr 27 01:35:06 ip-172-31-26-143 systemd-logind[536]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 27 01:35:06 ip-172-31-26-143 systemd-logind[536]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 27 01:35:06 ip-172-31-26-143 systemd-logind[536]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 27 01:35:06 ip-172-31-26-143 systemd-logind[536]: New seat seat0.
+Apr 27 01:35:10 ip-172-31-26-143 sshd[883]: Accepted publickey for abhisawa from 174.194.150.43 port 26543 ssh2: RSA SHA256:4oPB6+ukR1rQSn8mtm4GlgWySW+dWxRVcApKDSKuB9k
+Apr 27 01:35:10 ip-172-31-26-143 sshd[883]: pam_unix(sshd:session): session opened for user abhisawa by (uid=0)
+Apr 27 01:35:10 ip-172-31-26-143 systemd-logind[536]: New session 1 of user abhisawa.
+Apr 27 01:35:10 ip-172-31-26-143 systemd: pam_unix(systemd-user:session): session opened for user abhisawa by (uid=0)
+Apr 27 01:36:51 ip-172-31-26-143 sudo: abhisawa : TTY=pts/1 ; PWD=/home/abhisawa/git/go-playground/go-readfile ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 27 01:36:51 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 27 01:36:51 ip-172-31-26-143 sudo: pam_unix(sudo:session): session closed for user root
+Apr 27 01:37:04 ip-172-31-26-143 sudo: abhisawa : TTY=pts/1 ; PWD=/home/abhisawa/git/go-playground/go-readfile ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 27 01:37:04 ip-172-31-26-143 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+bal
+bal
