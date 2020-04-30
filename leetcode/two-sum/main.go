@@ -13,3 +13,25 @@ return [0, 1].
 */
 
 package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	in := []int{2, 7, 11, 15}
+	target := 9
+	var sum int
+
+Loop:
+	for i := 0; i < len(in); i++ {
+		for j := 0; j < len(in); j++ {
+			sum = in[i] + in[j]
+			if sum == target {
+				fmt.Printf("%d and %d\n", i, j)
+				break Loop
+			}
+		}
+	}
+}
