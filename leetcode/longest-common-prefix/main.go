@@ -16,16 +16,52 @@ package main
 
 import "fmt"
 
-type Data struct {
-	r string
+func main() {
+
+	//input := []string{"flower", "flow", "flight"}
+	input := []string{"geeksforgeeks", "geeks", "geek", "geezer"}
+
+	withChar(input)
 }
 
-func NewData(input string) *Data {
-	return &Data{
-		r: input,
+// with regex
+func withChar(input []string) {
+
+	longest := 0
+
+	prefix := ""
+
+	for _, c := range input {
+		if len(c) > longest {
+			longest = len(c)
+		}
 	}
-}
 
-func (h *Data) hello() string {
-	return h.r
+	for i := 0; i < longest; i++ {
+
+		letter := ""
+
+		for j, c := range input {
+
+			if i > len(c)-1 {
+				break
+			}
+
+			char := string(c[i])
+			if j == 0 {
+				letter = char
+			}
+
+			if letter != char {
+				break
+			}
+
+			if j == len(input)-1 {
+				prefix = prefix + letter
+			}
+
+		}
+	}
+
+	fmt.Println(prefix)
 }
