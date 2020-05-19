@@ -5,16 +5,24 @@ import (
 	"strings"
 )
 
-func reverse(i string) {
+func reverseByChars(i string) {
 	var c string
 	if len(i) != 1 {
 		c = string(i[0])
-		reverse(string(i[1:]))
+		reverseByChars(string(i[1:]))
 	} else {
 		fmt.Print(string(i))
 	}
 	fmt.Print(c)
 
+}
+
+func reverseByCharWithSlice(i string) {
+	cnt := len(i)
+	for j := cnt - 1; j >= 0; j-- {
+		fmt.Print(string(i[j]))
+	}
+	fmt.Println()
 }
 
 func reverseByWords(i []string) {
@@ -35,7 +43,10 @@ func main() {
 
 	input := "This is my string"
 
-	//reverse(input)
+	//reverseByChars(input)
+	reverseByCharWithSlice(input)
 
-	reverseByWords(strings.Fields(input))
+	fmt.Println()
+
+	//reverseByWords(strings.Fields(input))
 }
